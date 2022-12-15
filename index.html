@@ -1,13 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
+<meta charset="utf-8">
+	<title>Caio S. P.</title>
+    <head>
+    	<link rel="icon" href="imgs/favicon.ico">
+        <style type='text/css'>
+            section {
+                display: none;
+            }
+            :target {
+                display: block;
+            }
+            body {
+	        background-color: rgba(17,17,17,255);
+		}
+		.iframeContainer{
+			color:#212121;
+			right:0;
+			position: absolute;
+			width: 80%;
+			height: 98%;
+			overflow: hidden;
+		}
+		.iframeContent{
+		left:0;
+			position: relative;
+			width: 79%;
+			height: 99%;	
+			background:url("imgs/loading.gif") center center no-repeat;		
+		}
+		.menuContainer {
+			position: absolute;
+			width: 19%;
+			height: 97%;
+			left: 10px;		
+			overflow: scroll;
+		}
+		button {
+			width: 95%;
+			padding: 10px 0;
+			text-align: center;
+			margin: 10px 5px;
+			border-radius: 8px;
+			border: 2px solid #212121;
+			background: transparent;
+			cursor:pointer;
+			position: relative;
+			overflow: hidden;
+			cursor: pointer;
+		}
+		button a {
+		text-decoration:none;
+			display:block;
+			color:gray;
 
-<head>
-</head>
+		}
+		span{
+			background: #111111;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			left:0;
+			bottom:0;
+			z-index:-1;
+			transition:0.3s;
+		}
+		button:hover span {
+			background: #212121;
+		}
+		button:hover {
+			color:#ffffff;
+			border: 2px solid #616161;
+		}
+		img {
+		
+			border-radius: 5px;
+			border: solid 2px transparent;
+			transition:0.5s;
+		}
+		img:hover {
+		    border-color: #616161;
+		}
+		.holds-the-iframe {
+		}
+        </style>
+    </head>
+    <body>
+	<div class="iframeContainer">
+		<iframe src="https://notebooks.githubusercontent.com/view/ipynb?color_mode=dark&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f7073637370792f7075626c69632f653637396234643739326532616630393735393336343631653533363639316366353435663335352f61727175697661646f2f3030302f3030302e6970796e62"
+			scrolling = "yes" 
+			class="iframeContent"
+			style="height:100%;width:100%;"
+			frameborder="0";>
+		</iframe>
+	</div>
+        <div class="menuContainer" align="center">
+		<div class="menuContent">
+			<button><a href=''>Caio S. P.</button>
+			<img><a href="http://t.me/npsi_c" target="_blank"><img src="imgs/telegram.png" style="width:40px;height:40px;"></a></img>
+			<img><a href="http://wa.me/24981628508" target="_blank"><img src="imgs/whatsapp.png" style="width:40px;height:40px;"></a></img>
+			<img><a href="http://www.linkedin.com/in/caiosp" target="_blank"><img src="imgs/linkedin.png" style="width:40px;height:40px;"></a></img>
+			<img><a href="mailto:caio.neuropsi@gmail.com" target="_blank"><img src="imgs/email.png" style="width:40px;height:40px;"></a></img>
+			<img><a href="http://lattes.cnpq.br/6106522438045781" target="_blank"><img src="imgs/cnpq.png" style="width:40px;height:40px;"></a></img>
+			<hr>
+			<button><a href='#02'>02 - WebScrapping B3</a></button>
+			<button><a href='#01'>01 - WebScrapping FII</a></button>
+		</div>	
+        </div>
+        <section id='02'>
+		<div class="iframeContainer">
+			<iframe src="https://notebooks.githubusercontent.com/view/ipynb?color_mode=dark&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f7073637370792f7075626c69632f343465303033393239363730363165643932376461343436363136326438376530366464616131372f61727175697661646f2f3030322f3030325f576562536372617070696e675f284233292e6970796e62"
+				scrolling = "yes" 
+				class="iframeContent"
+				style="height:100%;width:100%;"
+				frameborder="0";>
+			</iframe>
+		</div>
+        </section>
+        <section id='01'>
+		<div class="iframeContainer">
+			<iframe src="https://notebooks.githubusercontent.com/view/ipynb?color_mode=dark&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f7073637370792f7075626c69632f653637396234643739326532616630393735393336343631653533363639316366353435663335352f61727175697661646f2f3030312f3030315f576562536372617070696e675f2846756e64734578706c6f726572292e6970796e62"
+				scrolling = "yes" 
+				class="iframeContent"
+				style="height:100%;width:100%;"
+				frameborder="0";>
+			</iframe>
+		</div>
+        </section>
 
-<body>
-	<h1>
-	teste
-	</h1>
-</body>
-
+    </body>
 </html>
+
